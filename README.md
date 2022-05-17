@@ -6,7 +6,8 @@ A command-line application to read at your desired pace for those who get easily
 
 ## Steps to run
 
- 1. Download the repository
- 2. `chmod 755 placidread.sh` one time
- 3. `./placidread filename speed(wpm)`
- 4. eg: `./placidread example.txt 300`. Default speed is 100 wpm
+ 1. Clone the repository
+ 2. Run `chmod 755 ./install.sh && ./install.sh` to install the script
+ 3. Enter the root user password when prompted.
+ 4. SYNTAX : `placidread.sh <filename> <speed(wpm)>`
+ 5. eg: `placidread.sh example.txt 300`. Default speed is 100 wpm
